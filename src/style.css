@@ -1,1 +1,54 @@
 /* css */
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0; 
+     
+}
+header  {
+    background-color: blue;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+   
+}
+
+
+
+p {
+    background-color: teal;
+    margin: 0;
+    padding: 40px;
+    text-align: right;
+    font-size: 20;
+        
+}
+
+article {
+    display: flex;    
+    justify-content: center;
+    margin-top: 40;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+article textarea {
+    height: 200px;
+    width: 400px;
+}
+
+#btns {
+    background-color: green;
+    display: inline-flexbox;
+}
+#key-btn {
+    background-color: indianred;
+    
+    
+}
+
+
+#action-btns {
+    background-color: hotpink;
+    
+}
