@@ -14,7 +14,7 @@ function getValuesEncode(){
     //offset
     let offset = parseInt(key.value)    
 
-    //console.log(string)
+    console.log(string)
     //console.log(typeof offset)
     
     return result.value = cipher.encode(offset, string)   
