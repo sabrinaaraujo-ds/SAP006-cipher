@@ -1,5 +1,3 @@
-
-
 const cipher = {
 
     encode(offset, string) {
@@ -32,7 +30,6 @@ const cipher = {
             //alimentando resultado
             resultado += letraAtual
         }
-    
         return resultado;
     },
 
@@ -46,7 +43,7 @@ const cipher = {
          throw new TypeError("Digite uma mensagem")
         }
 
-        let resultado = '';
+         let resultado = '';
     
          for (let i = 0; i < string.length; i++){
     
@@ -65,14 +62,9 @@ const cipher = {
     
             //alimentando resultado
             resultado += letraAtual
-        }
-    
+        }    
         return resultado;
-    }
-
-    
+    }    
 };
-
-
 
 export default cipher;

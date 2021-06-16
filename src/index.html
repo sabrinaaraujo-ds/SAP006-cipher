@@ -5,40 +5,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Caesar Cipher</title>
+  <title>Will's Message</title>
 </head>
 <body>
 
   <header>
-    <h1 id="logo">CIPHER</h1>
+    <img src="./images/logo.png" alt="logo" id="logo">
   </header>
 
-  <section>
-    <div id="description-container">
-      <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis at tellus eget fringilla. Sed vehicula imperdiet lobortis. Nam sit amet ligula a ligula varius suscipit a at mi. Integer venenatis tellus in tortor pharetra, et tincidunt ante tincidunt. Ut odio arcu, mollis eget tortor quis, dapibus rutrum leo. </p>
-    </div>
+  <section>    
+      <p id="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis at tellus eget fringilla. Sed vehicula imperdiet lobortis. Nam sit amet ligula a ligula varius suscipit a at mi. Integer venenatis tellus in tortor pharetra, et tincidunt ante tincidunt. Ut odio arcu, mollis eget tortor quis, dapibus rutrum leo.        
+      </p>
   </section>
 
-  <article>
-      <div id="input-container">
-        <input type="text" class ="input-messages" id="input-message">      
-      </div>
-
-      <div id="divdomeio">
+  <main class="main">      
+      <input type="text" class ="messages" id="input-message">      
+     
+      <div class="flexContainer">
         <input type="number" id="key">
+      </div>
              
-        <div id="action-btns"> 
-          <button type="button" id="encode-btn">ENCODE</button>
-          <button type="button" id="decode-btn">DECODE</button>
-        </div>
+      <div class="flexContainer"> 
+        <button type="button" id="encode-btn">ENCODE</button>
+        <button type="button" id="decode-btn">DECODE</button>
       </div>
       
-      
-      <div id="output-container">
-        <input type ="text" id="output-message" class ="input-messages">
-      </div>
-
-  </article>
+      <input type ="text" class ="messages" id="output-message" >
+     </main>
   
   <script type="module"  src="index.js"></script>
 </body>

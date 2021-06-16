@@ -1,70 +1,63 @@
 /* css */
-body {
-    background-color: #2F3648;
+* {
+    
     margin: 0;
     padding: 0; 
      
 }
+body {
+    background-color: cadetblue;
+}
+
 header  {
     background-color: #2F3648;
-    color: #72A3F1;
-    margin: 0px;
+    height: 90px;    
     padding: 20px; 
-    font-family: Arial, Helvetica, sans-serif;  
+    display: flex;
+    
+}
+.logo {
+    width: 300px;
+}
+
+section {
+    background-color: #394258;
+    height: 150px;
 }
 
 p {
-    background-color: #394258;
+   
     color: #BABAB9;
     margin: 0;
     padding: 40px;
     text-align: right;
     font-size: 20;   
-    height: 80px; 
+    height: 80px;   
     
 }
 
-article {
-    display: flex;    
+.main {
+   background: cornflowerblue;
+   max-width: 600px;   
+   margin: auto;
+   margin-top: 40px;
+   padding: 0 10px;
+    
+}
+
+/*inputs de mensagem*/
+.main .messages {    
+    box-sizing: border-box;
+    display: block;    
+    width: 100%;
+    padding: 20px 40px;
+    
+}
+
+.flexContainer {
+    display: flex;
     justify-content: center;
-    margin-top: 40;
-    padding: 100px;
-    justify-content: space-between;
-}
-
-.input-messages {
-    background-color: #2F3648;
-    color: white;
-    border-color: #72A3F1;
-    height: 180px;
-    width: 400px;
-    border-radius: 1rem;
-}
-
-#key {
-    background-color: #2F3648;
-    color: #72A3F1;
-    border-color: #72A3F1 ;
-    border-width: 1px;
-    border-radius: 1rem;
-}
-
-#action-btns {
-    display: flex;  
-    flex-direction: column;
-    margin-top: 40px;  
-    
-}
-
-#action-btns button {
-    padding: 10px;
-    background-color: #72A3F1;  
-    color: white;
-    border: none;
-    border-radius: 0.5rem;
 }
 
 
-#decode-btn {
-    margin-top: 40px;
-}
+
