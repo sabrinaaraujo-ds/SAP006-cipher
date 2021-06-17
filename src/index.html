@@ -8,7 +8,7 @@
   <title>Will's Message</title>
 </head>
 <body>
-
+  <div class="overlay">
   <header>
     <img src="./images/logo.png" alt="logo" id="logo">
   </header>
@@ -19,21 +19,21 @@
       </p>
   </section>
 
-  <main class="main">      
-      <input type="text" class ="messages" id="input-message">      
-     
-      <div class="flexContainer">
-        <input type="number" id="key">
-      </div>
-             
-      <div class="flexContainer"> 
-        <button type="button" id="encode-btn">ENCODE</button>
-        <button type="button" id="decode-btn">DECODE</button>
-      </div>
+  <main class="main">  
+
+    <div class="flexContainer">
+      <input type="text" class ="messages" id="input-message">     
+      <input type="number" id="key">
+    </div>    
+                   
+    <div class="flexContainer"> 
+      <button type="button" id="encode-btn">ENCODE</button>
+      <button type="button" id="decode-btn">DECODE</button>
+    </div>
       
       <input type ="text" class ="messages" id="output-message" >
-     </main>
-  
+  </main>
+</div> 
   <script type="module"  src="index.js"></script>
 </body>
 </html>

@@ -1,48 +1,55 @@
 /* css */
 * {
-    
     margin: 0;
     padding: 0; 
-     
 }
+
 body {
-    background-color: cadetblue;
+    background: url(./images/bg-wallStrangerThings.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.overlay {    
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 header  {
-    background-color: #2F3648;
+    
     height: 90px;    
     padding: 20px; 
-    display: flex;
-    
-}
-.logo {
-    width: 300px;
+    display: flex;    
 }
 
+.logo {
+    width: 300px;}
+
 section {
-    background-color: #394258;
+    display: flex;
+    
     height: 150px;
 }
 
 p {
-   
     color: #BABAB9;
-    margin: 0;
-    padding: 40px;
+    width: 350px;
+    height: 100%;
     text-align: right;
-    font-size: 20;   
-    height: 80px;   
-    
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 20;
 }
 
 .main {
-   background: cornflowerblue;
+   
    max-width: 600px;   
    margin: auto;
    margin-top: 40px;
-   padding: 0 10px;
-    
+   padding: 0 10px;    
 }
 
 /*inputs de mensagem*/
@@ -50,8 +57,7 @@ p {
     box-sizing: border-box;
     display: block;    
     width: 100%;
-    padding: 20px 40px;
-    
+    height: 60px;        
 }
 
 .flexContainer {
@@ -59,5 +65,16 @@ p {
     justify-content: center;
 }
 
+.flexContainer  #key {
+    margin-left: -60px;
+    width: 55px;     
+}
+
+
+.flexContainer button {
+    width: 100px;
+    height: 40px;
+    margin: 40px;
+}
 
 
