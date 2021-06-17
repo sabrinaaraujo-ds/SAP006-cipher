@@ -2,11 +2,11 @@ const cipher = {
 
     encode(offset, string) {
 
-       if (typeof offset !== "number"){
+       if (typeof offset !== "number" ){
            throw new TypeError("Insira um número para a chave")
        }
 
-       if (typeof string !== "string"){
+       if (typeof string !== "string" ){
         throw new TypeError("Digite uma mensagem")
        }
 

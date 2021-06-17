@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Will's Message</title>
-</head>
-<body>
-  <div class="overlay">
-  <header>
-    <img src="./images/logo.png" alt="logo" id="logo">
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Will's Message</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <header>
+        <img src="./images/logo.png" alt="logo" id="logo" />
+      </header>
 
-  <section>    
-      <p id="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis at tellus eget fringilla. Sed vehicula imperdiet lobortis. Nam sit amet ligula a ligula varius suscipit a at mi. Integer venenatis tellus in tortor pharetra, et tincidunt ante tincidunt. Ut odio arcu, mollis eget tortor quis, dapibus rutrum leo.        
-      </p>
-  </section>
+      <section>
+        <p id="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis
+          at tellus eget fringilla. Sed vehicula imperdiet lobortis. Nam sit
+          amet ligula a ligula varius suscipit a at mi. Integer venenatis tellus
+          in tortor pharetra, et tincidunt ante tincidunt. Ut odio arcu, mollis
+          eget tortor quis, dapibus rutrum leo.
+        </p>
+      </section>
 
-  <main class="main">  
+      <main class="main">
+        <div class="flexContainer">
+          <input type="text" class="messages" id="input-message" required />
+          <input type="number" id="key" required />
+        </div>
 
-    <div class="flexContainer">
-      <input type="text" class ="messages" id="input-message">     
-      <input type="number" id="key">
-    </div>    
-                   
-    <div class="flexContainer"> 
-      <button type="button" id="encode-btn">ENCODE</button>
-      <button type="button" id="decode-btn">DECODE</button>
+        <div class="flexContainer">
+          <button type="button" id="encode-btn">ENCRIPTAR</button>
+          <button type="button" id="decode-btn">DECRIPTAR</button>
+        </div>
+
+        <div class="holder">
+          <input type="text" class="messages" id="output-message" />
+        </div>
+      </main>
     </div>
-      
-      <input type ="text" class ="messages" id="output-message" >
-  </main>
-</div> 
-  <script type="module"  src="index.js"></script>
-</body>
+    <script type="module" src="index.js"></script>
+  </body>
 </html>
