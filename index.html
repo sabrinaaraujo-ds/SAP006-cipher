@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Will's Message</title>
+  </head>
+  <body>
+    <div class="overlay">
+
+      <header>
+        <div class="logocontainer">
+          <img src="./images/logo2.png" alt="logo"/>
+        </div>        
+      </header>
+
+      <section>
+        <p id="description">
+          Ajude o Will a enviar uma mensagem para seus amigos! Digite uma mensagem curta e um número que representa a chave para tornar a mensagem segura.
+        </p>
+      </section>
+
+      <main class="main">
+        <div class="flexContainer">
+          <input type="text" class="messages" id="input-message"  placeholder="MENSAGEM"/>
+          <input type="number" id="key" placeholder="CHAVE" />
+        </div>
+
+        <div class="flexContainer">
+          <button type="button" id="encode-btn">ENCRIPTAR</button>
+          <button type="button" id="decode-btn">DECRIPTAR</button>
+        </div>
+
+        <div class="holder">
+          <input type="text" class="messages" id="output-message" />
+        </div>
+        
+      </main>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

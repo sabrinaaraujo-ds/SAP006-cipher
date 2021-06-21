@@ -1,0 +1,129 @@
+/* css */
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url(./images/bg-wallStrangerThings.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;    
+    font-size: 12pt;    
+}
+
+.overlay {    
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+header  {   
+    
+    height: 90px;    
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+       
+}
+
+.logocontainer {   
+    display: flex;
+    justify-content: center;    
+    width: 400px;
+    height: 110px;    
+}
+
+section {
+    display: flex;    
+    height: 70px;
+    padding: 10px;
+    margin-top: 30px;    
+}
+
+p {
+    color: #BABAB9;
+    width: 500px;
+    height: 100%;
+    text-align: left;    
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.main {  
+   max-width: 600px;   
+   margin: auto;
+   margin-top: 50px; 
+   padding: 0 10px;  
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;   
+}
+
+.main .messages {
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom: 3px solid rgb(187, 185, 185);      
+    transition: 0.8s; 
+}
+.messages:focus {
+    outline: none;
+    border-color:red;
+}
+
+ 
+#key {
+    background: transparent;
+    color: white;
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -63px;
+    margin-top: 10px;
+    border: 2px solid white;
+    transition: 0.8s;
+}
+
+#key::placeholder {
+    font-size: 15px;
+}
+
+#key:focus {
+    outline: none;
+    border-color:red;
+}
+
+#key::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.flexContainer button {
+    background: transparent;
+    color: white;
+    font-weight: bold;    
+    width: 110px;
+    height: 45px;
+    margin: 50px 40px;
+    border: 1px solid white;
+    transition: background-color ease 400ms;
+}
+
+button:hover {    
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+#output-message {
+    margin-top: -20px;    
+}
+
+
