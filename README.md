@@ -46,6 +46,7 @@ a cifra de Vigenère, e tem aplicação no sistema ROT13.
 Desenhada para dar ênfase aos elementos que rementem à série como as cores, fontes dos textos e imagem de fundo.
 O usuário interage com a aplicação através de inputs e botões tranparentes para maior satisfação visual.
 
+![layout](https://github.com/sabrinaaraujo-ds/SAP006-cipher/blob/main/Desktop%20-%201prototipo.png)
 
 * Eleger um _offset_ indicando quantas posições de deslocamento de caracteres
   quer que a cifra utilize.
