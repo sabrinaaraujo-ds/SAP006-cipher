@@ -9,24 +9,23 @@
   </head>
   <body>
     <div class="overlay">
+
       <header>
-        <img src="./images/logo.png" alt="logo" id="logo" />
+        <div class="logocontainer">
+          <img src="./images/logo2.png" alt="logo"/>
+        </div>        
       </header>
 
       <section>
         <p id="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis
-          at tellus eget fringilla. Sed vehicula imperdiet lobortis. Nam sit
-          amet ligula a ligula varius suscipit a at mi. Integer venenatis tellus
-          in tortor pharetra, et tincidunt ante tincidunt. Ut odio arcu, mollis
-          eget tortor quis, dapibus rutrum leo.
+          Ajude o Will a enviar uma mensagem para seus amigos! Digite uma mensagem curta e um número que representa a chave para tornar a mensagem segura.
         </p>
       </section>
 
       <main class="main">
         <div class="flexContainer">
-          <input type="text" class="messages" id="input-message" required />
-          <input type="number" id="key" required />
+          <input type="text" class="messages" id="input-message"  placeholder="MENSAGEM"/>
+          <input type="number" id="key" placeholder="CHAVE" />
         </div>
 
         <div class="flexContainer">
@@ -37,6 +36,7 @@
         <div class="holder">
           <input type="text" class="messages" id="output-message" />
         </div>
+        
       </main>
     </div>
     <script type="module" src="index.js"></script>
